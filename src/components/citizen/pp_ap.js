@@ -8,26 +8,20 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text Yeah Again<span>.</span>
+                            Watch this Video<span>.</span>
                         </h1>
                     </div>
                 </header>
                 <main>
                     <section>
-                        <div className="sub-section">
-                            <Link to="s_stay">
-                                <div className="buttonLink">
-                                    <span className="f-f--ourF">
-                                        Stay overnight in a tent in Freedom Square
-                                    </span>
-                                </div>
-                            </Link>
+                        <div className="video-YouTube">
+                            <iframe src="https://www.youtube.com/embed/L3wKzyIN1yk" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title="Velvet Revolution Cutscene"></iframe>
                         </div>
-                        <div className="sub-section">
-                            <Link to="./ppap">
-                                <div className="buttonLink">
+                        <div className="sub-section" style={{marginTop: "10px"}}>
+                            <Link to="./s_quest">
+                                <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Go Home
+                                        Continue
                                     </span>
                                 </div>
                             </Link>

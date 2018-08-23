@@ -28,7 +28,7 @@ class App extends Component {
                         </Link>
                     </div>
                         <div className="image-Source">
-                            <img src={Map}/>
+                            <img src={Map} alt="Map"/>
                         </div>
                     </section>
                 </main>

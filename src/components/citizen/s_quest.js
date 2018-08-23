@@ -33,7 +33,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="d_choose/ap">
+                            <Link to="./ppap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Go home

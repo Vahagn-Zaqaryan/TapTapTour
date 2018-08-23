@@ -4,14 +4,15 @@ import '../css/tss.min.css';
 import '../css/pages/main.min.css';
 import Logo from '../img/logo.png';
 import Start from '../components/start';
-import City_Start from '../components/citizen/start';
-import City_Call from '../components/citizen/Calling/diler';
+import CityStart from '../components/citizen/start';
+import CityCall from '../components/citizen/Calling/diler';
 import Call from '../components/citizen/Calling/call_sound.mp3';
-import D_Choose from '../components/citizen/d_choose';
-import AP_P from '../components/citizen/ap_p';
-import C_Hide from '../components/citizen/c_hide';
-import S_Quest from '../components/citizen/s_quest';
-import S_Stay from '../components/citizen/s_stay';
+import DChoose from '../components/citizen/d_choose';
+import APP from '../components/citizen/ap_p';
+import PPAP from '../components/citizen/pp_ap';
+import CHide from '../components/citizen/c_hide';
+import SQuest from '../components/citizen/s_quest';
+import SStay from '../components/citizen/s_stay';
 
 class App extends Component {
     handleAudioCall () {
@@ -43,13 +44,14 @@ class App extends Component {
                     </div>
                 </nav>
                 <Route exact path="/" component={Start}/>
-                <Route exact path="/citizen" render={()=><City_Start audioPlay={this.handleAudioCall.bind(this)}/>}/>
-                <Route exact path="/citizen/dialer" render={()=><City_Call audioPause={this.handleAudioCallOff.bind(this)}/>}/>
-                <Route exact path="/citizen/d_choose" render={()=><D_Choose/>}/>
-                <Route exact path="/citizen/d_choose/ap" render={()=><AP_P/>}/>
-                <Route exact path="/citizen/d_choose/c_hide" render={()=><C_Hide/>}/>
-                <Route exact path="/citizen/d_choose/s_quest" render={()=><S_Quest/>}/>
-                <Route exact path="/citizen/d_choose/s_stay" render={()=><S_Stay/>}/>
+                <Route exact path="/citizen" render={()=><CityStart audioPlay={this.handleAudioCall.bind(this)}/>}/>
+                <Route exact path="/citizen/dialer" render={()=><CityCall audioPause={this.handleAudioCallOff.bind(this)}/>}/>
+                <Route exact path="/citizen/d_choose" render={()=><DChoose/>}/>
+                <Route exact path="/citizen/d_choose/ap" render={()=><APP/>}/>
+                <Route exact path="/citizen/d_choose/ppap" render={()=><PPAP/>}/>
+                <Route exact path="/citizen/d_choose/c_hide" render={()=><CHide/>}/>
+                <Route exact path="/citizen/d_choose/s_quest" render={()=><SQuest/>}/>
+                <Route exact path="/citizen/d_choose/s_stay" render={()=><SStay/>}/>
                 <footer>
 
                 </footer>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './css/style.min.css';
 import './css/tss.min.css';
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 import Main from './pages/main';
 
 class App extends Component {

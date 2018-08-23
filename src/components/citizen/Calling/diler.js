@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './diler.min.css';
 import Call from './call.svg';
 
@@ -40,7 +39,7 @@ class App extends Component {
                         <div className="accept-call d--flex justify-center align-center">
                             <div className="call-button d--flex justify-center align-center" onClick={this.handleCallOff.bind(this)} id="call_button">
                                 <div className="">
-                                    <img src={Call} title="Call button"/>
+                                    <img src={Call} title="Call button" alt="Call button"/>
                                 </div>
                             </div>
                         </div>
