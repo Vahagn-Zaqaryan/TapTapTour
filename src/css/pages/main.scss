@@ -35,6 +35,12 @@ $padding_main: 20px;
                     color: $taptap_pcolor
                 }
             }
+            p{
+                margin-top: 10px;
+                color: #aaa;
+                font-size: 13px;
+
+            }
         }
     }
     main{
@@ -42,21 +48,23 @@ $padding_main: 20px;
             width: 100%;
             height: auto;
             .sub-section{
+                position: relative;
                 box-sizing: border-box;
                 width: 100%;
                 height: auto;
                 padding: 0 $padding_prime;
-                .buttonLink{
-                    text-align: center;
-                    padding: 15px 0;
-                    box-shadow: rgba(125, 125, 125, 0.4) 0 0 8px 0;
-                    border-radius: 20px;
-                    background-color: $primeC;
-                    a{
+                a{
+                    width: 100%;
+                    font-size: 18px;
+                    color: $taptap_pcolor;
+                    text-decoration: none;
+                    .buttonLink{
+                        padding: 15px 0;
                         width: 100%;
-                        font-size: 18px;
-                        color: $taptap_pcolor;
-                        text-decoration: none;
+                        text-align: center;
+                        box-shadow: rgba(125, 125, 125, 0.4) 0 0 8px 0;
+                        border-radius: 20px;
+                        background-color: $primeC;
                     }
                 }
                 &:not(:last-child){
@@ -67,6 +75,13 @@ $padding_main: 20px;
                 iframe{
                     width: 100%;
                     height: calc((100vw/16)*9);
+                }
+            }
+            .image-Source{
+                width: 100%;
+                img{
+                    vertical-align: bottom;
+                    width: 100%;
                 }
             }
         }

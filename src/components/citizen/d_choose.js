@@ -15,31 +15,31 @@ class App extends Component {
                 <main>
                     <section>
                         <div className="sub-section">
-                            <div className="buttonLink f-f--ourF">
-                                <Link to="d_choose/ppap">
+                            <Link to="d_choose/ppap">
+                                <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
                                         Agree & dont participate
                                     </span>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                         <div className="sub-section">
-                            <div className="buttonLink">
-                                <Link to="d_choose/ap">
+                            <Link to="d_choose/ap">
+                                <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Agree, participate secretly
                                     </span>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                         <div className="sub-section">
-                            <div className="buttonLink">
-                                <Link to="d_choose/ap">
+                            <Link to="d_choose/ap">
+                                <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Disagree & participate
                                     </span>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                     </section>
                 </main>

@@ -9,6 +9,9 @@ import City_Call from '../components/citizen/Calling/diler';
 import Call from '../components/citizen/Calling/call_sound.mp3';
 import D_Choose from '../components/citizen/d_choose';
 import AP_P from '../components/citizen/ap_p';
+import C_Hide from '../components/citizen/c_hide';
+import S_Quest from '../components/citizen/s_quest';
+import S_Stay from '../components/citizen/s_stay';
 
 class App extends Component {
     handleAudioCall () {
@@ -44,6 +47,9 @@ class App extends Component {
                 <Route exact path="/citizen/dialer" render={()=><City_Call audioPause={this.handleAudioCallOff.bind(this)}/>}/>
                 <Route exact path="/citizen/d_choose" render={()=><D_Choose/>}/>
                 <Route exact path="/citizen/d_choose/ap" render={()=><AP_P/>}/>
+                <Route exact path="/citizen/d_choose/c_hide" render={()=><C_Hide/>}/>
+                <Route exact path="/citizen/d_choose/s_quest" render={()=><S_Quest/>}/>
+                <Route exact path="/citizen/d_choose/s_stay" render={()=><S_Stay/>}/>
                 <footer>
 
                 </footer>

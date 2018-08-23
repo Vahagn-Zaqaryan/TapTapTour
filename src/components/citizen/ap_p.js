@@ -15,22 +15,22 @@ class App extends Component {
                 <main>
                     <section>
                         <div className="sub-section">
-                            <div className="buttonLink">
-                                <Link to="d_choose/ap">
+                            <Link to="c_hide">
+                                <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Hide from cameras, dont take any photos
                                     </span>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                         <div className="sub-section">
-                            <div className="buttonLink">
-                                <Link to="d_choose/ap">
+                            <Link to="d_choose/ap">
+                                <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Stand close to the stage
                                     </span>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                     </section>
                 </main>

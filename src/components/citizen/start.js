@@ -21,13 +21,13 @@ class App extends Component {
                             <iframe src="https://www.youtube.com/embed/6oQUvMEK8oE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title="Velvet Revolution Cutscene"></iframe>
                         </div>
                         <div className="sub-section" style={{marginTop: "10px"}}>
-                            <div className="buttonLink f-f--ourF" onClick={this.handleCall.bind(this)}>
-                                <Link to="/citizen/dialer">
+                            <Link to="/citizen/dialer">
+                                <div className="buttonLink f-f--ourF" onClick={this.handleCall.bind(this)}>
                                     <span className="f-f--ourF">
                                         Continue
                                     </span>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                     </section>
                 </main>

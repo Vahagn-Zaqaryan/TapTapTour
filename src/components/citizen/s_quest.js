@@ -8,35 +8,35 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Choose Difficulty Level<span>.</span>
+                            Some Text Again<span>.</span>
                         </h1>
                     </div>
                 </header>
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="citizen">
-                                <div className="buttonLink f-f--ourF">
+                            <Link to="s_stay">
+                                <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Citizen
+                                        March towards freedom square in front rows
                                     </span>
                                 </div>
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="">
+                            <Link to="s_stay">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Activist
+                                        Tag along behind your new friends
                                     </span>
                                 </div>
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="">
+                            <Link to="d_choose/ap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Politician
+                                        Go home
                                     </span>
                                 </div>
                             </Link>

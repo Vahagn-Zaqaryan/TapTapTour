@@ -18,7 +18,7 @@ class App extends Component {
         element.style.visibility = "hidden";
         setTimeout(function () {
             // Play audio
-            window.location.href = "https://taptaptravel.github.io/#/citizen/d_choose";
+            window.location.href = "https://taptaptravel.github.io/bearebel/#/citizen/d_choose";
         },1000);
     }
     render() {
