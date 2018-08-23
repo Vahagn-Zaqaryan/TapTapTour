@@ -1,0 +1,77 @@
+$primeC: #ffffff;
+$taptap_pcolor: #e04b40;
+$padding_prime: 20px;
+$padding_main: 20px;
+
+.container{
+    background-color: $primeC;
+    nav{
+        background-color: $primeC;
+        width: 100%;
+        height: auto;
+        box-shadow: rgba(125, 125, 125, 0.4) 0 0 10px 0;
+        .nav-box{
+            background-color: $primeC;
+            width: 100%;
+            height: auto;
+            flex-direction: row;
+            .logo-box{
+                background-color: $primeC;
+                padding: 10px $padding_prime;
+                height: auto;
+                img{
+                    vertical-align:bottom;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    header{
+        .header-box{
+            padding: 30px $padding_prime 20px $padding_prime;
+            h1{
+                font-size: 20px;
+                span{
+                    color: $taptap_pcolor
+                }
+            }
+        }
+    }
+    main{
+        section{
+            width: 100%;
+            height: auto;
+            .sub-section{
+                box-sizing: border-box;
+                width: 100%;
+                height: auto;
+                padding: 0 $padding_prime;
+                .buttonLink{
+                    text-align: center;
+                    padding: 15px 0;
+                    box-shadow: rgba(125, 125, 125, 0.4) 0 0 8px 0;
+                    border-radius: 20px;
+                    background-color: $primeC;
+                    a{
+                        width: 100%;
+                        font-size: 18px;
+                        color: $taptap_pcolor;
+                        text-decoration: none;
+                    }
+                }
+                &:not(:last-child){
+                    margin-bottom: 15px;
+                }
+            }
+            .video-YouTube{
+                iframe{
+                    width: 100%;
+                    height: calc((100vw/16)*9);
+                }
+            }
+        }
+    }
+    footer{
+
+    }
+}

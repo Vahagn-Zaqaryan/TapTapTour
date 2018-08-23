@@ -1,0 +1,52 @@
+$color_valencia_approx: #36ac7a;
+$color_red_damask_approx: #8bc264;
+// $color_valencia_approx: #343f57;
+// $color_red_damask_approx: #2b808e;
+
+.calling-box{
+    main{
+        display: none;
+        section{
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg, $color_valencia_approx 0, $color_red_damask_approx 100%);
+            .top-bar{
+                box-sizing: border-box;
+                padding: 0 15px;
+                flex-grow: 1;
+                width: 100%;
+            }
+            .name{
+                flex-grow: 20;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                h4{
+
+                }
+                h6{
+                    font-weight: normal;
+                    font-size: 15px;
+                }
+            }
+            .accept-call{
+                flex-grow: 10;
+                .call-button{
+                    border-radius: 100%;
+                    width: 75px;
+                    height: 75px;
+                    background-color: #fff;
+                    img{
+                        vertical-align: bottom;
+                        width: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
