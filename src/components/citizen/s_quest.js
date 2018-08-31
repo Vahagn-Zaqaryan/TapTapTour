@@ -18,7 +18,7 @@ class App extends Component {
                             <Link to="s_stay">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        March towards freedom square in front rows
+                                        March towards Franch square in front rows
                                     </span>
                                 </div>
                             </Link>

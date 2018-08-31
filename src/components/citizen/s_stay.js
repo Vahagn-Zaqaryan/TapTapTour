@@ -15,7 +15,7 @@ class App extends Component {
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="s_stay">
+                            <Link to="./serzh_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Stay overnight in a tent in Freedom Square

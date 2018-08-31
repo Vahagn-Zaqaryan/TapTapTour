@@ -24,7 +24,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="d_choose/ap">
+                            <Link to="c_hide">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Stand close to the stage

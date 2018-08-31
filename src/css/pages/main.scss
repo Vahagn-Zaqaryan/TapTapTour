@@ -59,7 +59,7 @@ $padding_main: 20px;
                     color: $taptap_pcolor;
                     text-decoration: none;
                     .buttonLink{
-                        padding: 15px 0;
+                        padding: 15px 10px;
                         width: 100%;
                         text-align: center;
                         box-shadow: rgba(125, 125, 125, 0.4) 0 0 8px 0;
@@ -82,6 +82,19 @@ $padding_main: 20px;
                 img{
                     vertical-align: bottom;
                     width: 100%;
+                }
+            }
+            .textBox{
+                box-sizing: border-box;
+                width: 100%;
+                padding: 0 $padding_prime $padding_prime $padding_prime;
+                textarea{
+                    resize: vertical;
+                    font-size: 18px;
+                    padding: 5px;
+                    min-height: 130px;
+                    width: 100%;
+                    box-sizing: border-box;
                 }
             }
         }

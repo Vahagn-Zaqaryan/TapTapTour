@@ -20,6 +20,15 @@ $color_red_damask_approx: #8bc264;
                 padding: 0 15px;
                 flex-grow: 1;
                 width: 100%;
+                div{
+                    flex: 1;
+                }
+                .callTimeBox{
+                    display: none;
+                    .callTimeTextbox{
+                        text-align: right;
+                    }
+                }
             }
             .name{
                 flex-grow: 20;
@@ -36,6 +45,7 @@ $color_red_damask_approx: #8bc264;
             }
             .accept-call{
                 flex-grow: 10;
+                 height: 0%;
                 .call-button{
                     border-radius: 100%;
                     width: 75px;
@@ -44,6 +54,30 @@ $color_red_damask_approx: #8bc264;
                     img{
                         vertical-align: bottom;
                         width: 35px;
+                    }
+                }
+                .warningHeadset{
+                    display: none;
+                    flex-direction: column;
+                    .w-icon{
+                        margin-bottom: 10px;
+                        img{
+                            width: 45px;
+                        }
+                    }
+                    .text{
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        box-sizing: border-box;
+                        width: 85%;
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                    .e-icon{
+                        img{
+
+                            width: 30px;
+                        }
                     }
                 }
             }
