@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Choose Difficulty Level<span>.</span>
+                            PICK YOUR DIFFICULTY LEVEL<span>!</span>
                         </h1>
+                        <p>
+                            The harder the level, the harder the stories and challenges you will face.
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Activist
+                                        Activist (Complete Citizen 1st)
                                     </span>
                                 </div>
                             </Link>
@@ -36,7 +39,7 @@ class App extends Component {
                             <Link to="">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Politician
+                                        Politician (Complete  Activist 1st)
                                     </span>
                                 </div>
                             </Link>

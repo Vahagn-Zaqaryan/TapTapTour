@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text Again<span>.</span>
+                            
                         </h1>
                     </div>
                 </header>

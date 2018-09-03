@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
                     </div>
                 </header>
@@ -18,7 +18,7 @@ class App extends Component {
                             <Link to="d_choose/ppap">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Agree & dont participate
+                                        He’s right, it’s dangerous!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +27,7 @@ class App extends Component {
                             <Link to="d_choose/ap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Agree, participate secretly
+                                        I will participate secretly!
                                     </span>
                                 </div>
                             </Link>
@@ -36,7 +36,7 @@ class App extends Component {
                             <Link to="d_choose/ap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Disagree & participate
+                                        My life. My rules. I’m doing it!
                                     </span>
                                 </div>
                             </Link>

@@ -11,7 +11,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Watch this Video<span>.</span>
+                            WATCH WHAT CAUSED THE REVOLUTION<span>!</span>
                         </h1>
                     </div>
                 </header>

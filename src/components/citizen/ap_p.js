@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text Again<span>.</span>
+                            
                         </h1>
                     </div>
                 </header>
@@ -18,7 +18,7 @@ class App extends Component {
                             <Link to="c_hide">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Hide from cameras, dont take any photos
+                                        I must hide from the cameras! (Dad might watch me on the news)
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +27,7 @@ class App extends Component {
                             <Link to="c_hide">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Stand close to the stage
+                                        I’m not scared. I’m standing close to the stage!
                                     </span>
                                 </div>
                             </Link>

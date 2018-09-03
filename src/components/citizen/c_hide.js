@@ -9,10 +9,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Awesome Text If Needed<span>.</span>
+                        AVOID STANDING IN THE CAMERA RADIUS<span>!  </span>
                         </h1>
                         <p>
-                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            The news media position their cameras on the top left and right parts of the stage.
                         </p>
                     </div>
                 </header>
@@ -22,7 +22,7 @@ class App extends Component {
                         <Link to="s_quest">
                             <div className="buttonLink">
                                 <span className="f-f--ourF">
-                                    OK
+                                    Mission Accomplished!
                                 </span>
                             </div>
                         </Link>
