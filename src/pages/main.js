@@ -81,7 +81,7 @@ class App extends Component {
                             <img src={Logo} alt="Logo" title="Logo"/>
                         </div>
                         <div className="">
-                            <Link to="./">Hello</Link>
+                            
                         </div>
                     </div>
                 </nav>

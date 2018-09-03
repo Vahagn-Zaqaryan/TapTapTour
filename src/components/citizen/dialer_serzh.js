@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Calling/diler.min.css';
 import Call from './Calling/call.svg';
-import DadCall from './Calling/dad_call_2.wav';
+import DadCall from './Calling/dad_call_2.mp3';
 import WIconRed from './Calling/warning.svg';
 import EPIcon from './Calling/headset.svg';
 
