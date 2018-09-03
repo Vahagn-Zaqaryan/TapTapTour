@@ -2,7 +2,7 @@
   "name": "bealama",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://taptaptravel.github.io/bearebel/",
+  "homepage": "https://taptapbehero.firebaseapp.com",
   "dependencies": {
     "event": "^1.0.0",
     "gh-pages": "^1.2.0",
