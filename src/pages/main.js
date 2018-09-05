@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import '../css/tss.min.css';
 import '../css/pages/main.min.css';
 import Logo from '../img/logo.png';
@@ -81,7 +81,7 @@ class App extends Component {
                             <img src={Logo} alt="Logo" title="Logo"/>
                         </div>
                         <div className="">
-                            
+
                         </div>
                     </div>
                 </nav>

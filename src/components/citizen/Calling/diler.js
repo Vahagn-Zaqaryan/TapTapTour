@@ -34,7 +34,8 @@ class App extends Component {
         },1000);
         maudio.onended = function() {
             setTimeout(function () {
-                window.location.href = "./#/citizen/d_choose";
+                // clearInterval(timer);
+                window.location.href = "./d_choose";
             },300);
         };
     }
