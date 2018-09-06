@@ -18,7 +18,7 @@ class App extends Component {
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="../siselect/velvet_revolution">
+                            <Link to="./siselect/velvet_revolution">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
                                         It’s time to spice things up. I’m going!
