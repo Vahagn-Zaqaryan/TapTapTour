@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            In case of C (staying home)<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            As you are resting in the comfort and safety of your home (-_-) you are planning your next move.
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -18,7 +21,7 @@ class App extends Component {
                             <Link to="./live_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Watch live video
+                                        Let’s watch what’s going on in the city!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="../end/live_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Join
+                                        I want to experience it first hand!
                                     </span>
                                 </div>
                             </Link>

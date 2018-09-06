@@ -8,11 +8,8 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Nikol & Sasun Ararat arrested<span>.</span>
+
                         </h1>
-                        <p>
-                            Ask the Parliament to elect Nikol as Prime Minister
-                        </p>
                     </div>
                 </header>
                 <main>
@@ -21,7 +18,7 @@ class App extends Component {
                             <Link to="text_option_img1">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Ask the Parliament to elect Nikol as Prime Minister
+                                        The Revolution is not over! I demand Nikol elected as PM ASAP!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +27,7 @@ class App extends Component {
                             <Link to="text_option_img2">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        go celebrate in Republic Square
+                                        I want to go celebrate in the Republic Square!
                                     </span>
                                 </div>
                             </Link>

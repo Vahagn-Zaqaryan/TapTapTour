@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            In case of C, A, C<span>.</span>
+                             WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            Nikol Pashinyan and several protesters are hurt by fragments from sound grenades! He urges everyone to join him in the French Square for an important announcement. Also, one of your friends texted you that he was hurt by a fragment too.
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -18,7 +21,7 @@ class App extends Component {
                             <Link to="../siselect/velvet_revolution">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Join the people in French square
+                                        It’s time to spice things up. I’m going!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="./cac/bcall">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                    Text a friend who was hurt by frag grenade
+                                        I want to text my hurt friend, see how he’s doing!
                                     </span>
                                 </div>
                             </Link>
@@ -36,7 +39,7 @@ class App extends Component {
                             <Link to="./cac/scared">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Stay home, you’re scared for your safety
+                                        It’s a bit dangerous. Retreat for now!
                                     </span>
                                 </div>
                             </Link>

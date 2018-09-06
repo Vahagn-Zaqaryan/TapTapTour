@@ -8,14 +8,17 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Parliament Video<span>.</span>
+                            WATCH HOW THE REVOLUTION CATCHES ON FIRE<span>!</span>
                         </h1>
+                        <p>
+                            The newly elected Prime Minister Serzh Sargsyan has agreed to negotiate with Nikol Pashinyan. Various news media are covering the event.
+                        </p>
                     </div>
                 </header>
                 <main>
                     <section>
                         <div className="video-YouTube">
-                            <iframe src="https://www.youtube.com/embed/y08R20KflNM" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title="Velvet Revolution Cutscene"></iframe>
+                            <iframe src="https://www.youtube.com/embed/xgrGeA-st0I" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title="Velvet Revolution Cutscene"></iframe>
                         </div>
                         <div className="sub-section" style={{marginTop: "10px"}}>
                             <Link to="live_video_option">

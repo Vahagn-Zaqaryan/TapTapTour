@@ -8,15 +8,21 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Parliament Video<span>.</span>
+                            WATCH HOW WILL THE VOTING UNFOLD<span>!</span>
                         </h1>
+                        <p>
+                            After parents text: You and hundreds of thousands of citizens demand a re-election. The Parliament holds a second election. The Republicans promised to yield enough votes to elect Nikol!
+                        </p>
                     </div>
                 </header>
                 <main>
                     <section>
                         <div className="video-YouTube">
-                            <iframe src="https://www.youtube.com/embed/y08R20KflNM" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title="Velvet Revolution Cutscene"></iframe>
+                            <iframe src="https://www.youtube.com/embed/UMPiZogDRiY" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title="Velvet Revolution Cutscene"></iframe>
                         </div>
+                        <h1 className="text-non">
+                            THE CHANGE HAS COME! CONGRATULATIONS ON COMPLETING “WALK THE ROAD OF THE VELVET REVOLUTION!” THANKS TO YOUR EFFORTS, CITIZEN, A DICTATOR LOST HIS CONTINUOUS POWER AND YOUR FELLOW CITIZENS FINALLY HAVE HOPE FOR ARMENIA’S FUTURE!
+                        </h1>
                     </section>
                 </main>
             </div>

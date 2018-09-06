@@ -9,10 +9,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Text a friend who was hurt by frag grenade<span>.</span>
+                            Message from Parents<span>!</span>
                         </h1>
                         <p>
-                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Your brother told us that you have been protesting secretly. We’re not angry with you actually. We are inspired by you and your generation who want our country to change and become better. Thank you for giving our generation hope!
                         </p>
                     </div>
                 </header>

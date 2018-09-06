@@ -25,7 +25,7 @@ class App extends Component {
         let printBox = document.getElementById("timeBox");
         let textBox = document.getElementById("timeTextBox");
         printBox.style.display = "inherit";
-        let timer = setInterval(function() {
+        setInterval(function() {
             let ctime = maudio.currentTime
             var minutes = "0" + Math.floor(ctime / 60);
             var seconds = "0" + Math.floor(ctime % 60 + 1);
@@ -34,9 +34,9 @@ class App extends Component {
         },1000);
         maudio.onended = function() {
             setTimeout(function () {
+                maudio.currentTime = 0;
                 window.location.href = "./y_choose";
             },300);
-            clearInterval(timer);
         };
     }
     render() {

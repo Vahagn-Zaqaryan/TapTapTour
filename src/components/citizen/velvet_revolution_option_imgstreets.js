@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Map from './map.jpg';
+import Map from '../../img/img1.jpg';
 
 class App extends Component {
     render() {

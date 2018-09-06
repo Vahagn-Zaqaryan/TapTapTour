@@ -8,10 +8,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Nikol, Sasun & Ararat<span>.</span>
+                            CONGRATULATIONS<span>!</span>
                         </h1>
                         <p>
-                            Hello Bro
+                            You stood up for the Constitution and the rights of all those arrested people. Your resilience caused the biggest change Armenia has had in decades. <b>SERZH SARGSYAN RESIGNED FROM THE POST OF PRIME MINISTER!</b>
                         </p>
                     </div>
                 </header>

@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text Again<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            Nikol Pashinyan is leading the protesters to block the French Square.
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -18,7 +21,7 @@ class App extends Component {
                             <Link to="s_stay">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        March towards Franch square in front rows
+                                        I will follow right after him!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="s_stay">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Tag along behind your new friends
+                                        It’s safer if I walk behind the main crowd!
                                     </span>
                                 </div>
                             </Link>
@@ -36,7 +39,7 @@ class App extends Component {
                             <Link to="./ppap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go home
+                                        I will play safe and follow news from home!
                                     </span>
                                 </div>
                             </Link>

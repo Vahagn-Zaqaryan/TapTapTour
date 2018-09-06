@@ -8,10 +8,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            In case of A Nikol is not elected as PM the first time<span>.</span>
+                            PEOPLE ARE AGITATED BY THIS. WHAT WILL YOU DO<span>?</span>
                         </h1>
                         <p>
-                            Ask the Parliament to elect Nikol as Prime Minister
+                            In case of A The Parliament has a Republican Majority. None of its Members vote for Nikol Pashinyan. He is not elected as the Prime Minister!
                         </p>
                     </div>
                 </header>
@@ -21,7 +21,7 @@ class App extends Component {
                             <Link to="text_end_choose">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Protest at Republic Square
+                                        I will protest until I get what I want! Nikol as PM!!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +30,7 @@ class App extends Component {
                             <Link to="text_end_text">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Text parents- tell them hope is lost, but they cheer you up, because they were inspired by your actions and want to join you!
+                                        I will contact my parents. They were right afterall! :(
                                     </span>
                                 </div>
                             </Link>

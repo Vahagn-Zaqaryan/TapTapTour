@@ -8,11 +8,8 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            In case of A B B A B<span>.</span>
+                            CHOOSE YOUR REVOLUTIONARY ACTION<span>!</span>
                         </h1>
-                        <p>
-                            Some text if needed.
-                        </p>
                     </div>
                 </header>
                 <main>
@@ -21,7 +18,7 @@ class App extends Component {
                             <Link to="option/imgstreets">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Block streets
+                                        I think it’s fun to block a street or two!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +27,7 @@ class App extends Component {
                             <Link to="option/imgmetro">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Disturb metro traffic
+                                        I want to try something new- let’s disturb metro traffic!
                                     </span>
                                 </div>
                             </Link>

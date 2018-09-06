@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Tent video<span>.</span>
+                            WATCH HOW PROTESTERS SPEND A NIGHT AT THE FRENCH SQUARE<span>!</span>
                         </h1>
                     </div>
                 </header>

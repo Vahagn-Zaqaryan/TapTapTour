@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            Now that Serzh Sargsyan is an official Republican Party Candidate, the stakes are high! A group of students plans to block Yerevan’s biggest college campus intersection!
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -18,7 +21,7 @@ class App extends Component {
                             <Link to="./y_choose/ap">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Join by walking
+                                        I will march with the students!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="./y_choose/ap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Take the metro to Yeritasardakan
+                                        I will take the metro to Yeritasardakan station!
                                     </span>
                                 </div>
                             </Link>
@@ -36,7 +39,7 @@ class App extends Component {
                             <Link to="./y_choose/pp">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Watch live video
+                                        Is it that significant? I will just follow the news!
                                     </span>
                                 </div>
                             </Link>

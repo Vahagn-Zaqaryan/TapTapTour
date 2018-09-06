@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Some Text Yeah Again<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            Capturing the French Square was a piece of cake. Now the protesters need to occupy it at night.
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -18,7 +21,7 @@ class App extends Component {
                             <Link to="./serzh_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Stay overnight in a tent in Freedom Square
+                                        I want to spend the night at French Square!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="./ppap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go Home
+                                        April is cold in Yerevan. I’ll go home and join in the morning!
                                     </span>
                                 </div>
                             </Link>

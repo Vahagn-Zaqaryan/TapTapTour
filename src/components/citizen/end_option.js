@@ -8,10 +8,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Nikol & Sasun Ararat arrested<span>.</span>
+                            WHAT WILL YOU DO AT THIS POINT<span>?!</span>
                         </h1>
                         <p>
-                            Some text if needed.
+                            Nikol Pashinyan and other Members of Parliament are illegally kidnapped by the police! Many protesters are arrested too!
                         </p>
                     </div>
                 </header>
@@ -21,7 +21,7 @@ class App extends Component {
                             <Link to="text">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Demand that Nikol must be freed on the streets
+                                        I am demanding Nikol and these people are freed! It’s on!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +30,7 @@ class App extends Component {
                             <Link to="text">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go home, it’s dangerous now, follow news
+                                        Shit has just hit the fan! I’m out of here for now at least!
                                     </span>
                                 </div>
                             </Link>

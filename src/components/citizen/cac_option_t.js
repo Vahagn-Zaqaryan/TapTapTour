@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Text a friend who was hurt by frag grenade<span>.</span>
+
                         </h1>
                     </div>
                 </header>
@@ -18,7 +18,7 @@ class App extends Component {
                             <Link to="./scared">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Stay home
+                                        The danger is still there. Retreat for now!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +27,7 @@ class App extends Component {
                             <Link to="../siselect/velvet_revolution">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Join people in French square
+                                        Now I can go to French Square in Peace!
                                     </span>
                                 </div>
                             </Link>

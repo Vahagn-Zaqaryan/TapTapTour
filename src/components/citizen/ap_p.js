@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            
+                            GO TO FREEDOM SQUARE of OPERA<span>!</span>
                         </h1>
+                        <p>
+                            Once you are there, <b>WHAT WILL YOU DO?</b>
+                        </p>
                     </div>
                 </header>
                 <main>

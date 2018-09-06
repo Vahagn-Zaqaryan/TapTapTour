@@ -97,6 +97,10 @@ $padding_main: 20px;
                     box-sizing: border-box;
                 }
             }
+            .text-non{
+                padding: 30px $padding_prime 20px $padding_prime;
+                font-size: 20px;
+            }
         }
     }
     footer{

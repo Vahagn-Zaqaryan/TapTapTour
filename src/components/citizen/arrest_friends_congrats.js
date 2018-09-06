@@ -9,26 +9,22 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Congrats You Freed your friends in a day<span>.</span>
+                            GOOD JOB<span>!</span>
                         </h1>
                         <p>
-                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+                         Thanks to your actions, those people were let out from jail in less than 1 day!                   </p>
                     </div>
                 </header>
                 <main>
                     <section>
-                    <div className="sub-section">
-                        <Link to="../april17">
-                            <div className="buttonLink">
-                                <span className="f-f--ourF">
-                                    OK
-                                </span>
-                            </div>
-                        </Link>
-                    </div>
-                        <div className="image-Source">
-                            <img src={Map} alt="Map"/>
+                        <div className="sub-section">
+                            <Link to="../april17">
+                                <div className="buttonLink">
+                                    <span className="f-f--ourF">
+                                        Continue Button!
+                                    </span>
+                                </div>
+                            </Link>
                         </div>
                     </section>
                 </main>

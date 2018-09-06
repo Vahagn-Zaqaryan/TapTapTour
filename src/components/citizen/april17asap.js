@@ -8,10 +8,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Join protesters<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
                         <p>
-                            Some text if needed.
+                            The Parliament will hold a vote to elect Serzh Sargsyan. Nikol Pashinyan leads the protesters to block the Parliament, so the elections won’t happen.
                         </p>
                     </div>
                 </header>
@@ -21,7 +21,7 @@ class App extends Component {
                             <Link to="../siselectprevideo">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        March to the live protests as soon as possible
+                                        Without any doubt, I will march to the Parliament!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +30,7 @@ class App extends Component {
                             <Link to="../siselectprevideo">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Tag along behind the front lines
+                                        I will take the metro. It’s faster for me!
                                     </span>
                                 </div>
                             </Link>
@@ -39,7 +39,7 @@ class App extends Component {
                             <Link to="../cac">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go home
+                                        The crowd won’t miss one person. I’ll hold back!
                                     </span>
                                 </div>
                             </Link>

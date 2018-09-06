@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Pierce through police force<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
                         <p>
                             A few of your friends and protester peers are arrested by masked men
@@ -21,7 +21,7 @@ class App extends Component {
                             <Link to="./arrest_friends/congrats">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Talk to reporter
+                                        I will find a reporter and him what I saw!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +30,7 @@ class App extends Component {
                             <Link to="./arrest_friends/congrats">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Try to free them
+                                        “They have done nothing illegal, let them go!”
                                     </span>
                                 </div>
                             </Link>
@@ -39,7 +39,7 @@ class App extends Component {
                             <Link to="./arrest_friends/congrats">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Talk to leaders of movement
+                                        I will find an activist leading the protest and notify them!
                                     </span>
                                 </div>
                             </Link>
@@ -48,7 +48,7 @@ class App extends Component {
                             <Link to="./arrest_friends/congrats">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Do nothing & keep protesting
+                                        There is not much I can change. My job is to protest!
                                     </span>
                                 </div>
                             </Link>

@@ -129,6 +129,7 @@ class App extends Component {
                 <Route exact path="/citizen/cac/live_video_option" render={()=><CACLiveVideoOption/>}/>
                 <Route exact path="/citizen/end/live_video" render={()=><EndLiveVideo/>}/>
                 <Route exact path="/citizen/end/text" render={()=><EndText/>}/>
+                <Route exact path="/citizen/end/option" render={()=><EndOption/>}/>
                 <Route exact path="/citizen/end/text_option" render={()=><EndTextOption/>}/>
                 <Route exact path="/citizen/end/text_option_img1" render={()=><EndTextOptionImg1/>}/>
                 <Route exact path="/citizen/end/text_option_img2" render={()=><EndTextOptionImg2/>}/>

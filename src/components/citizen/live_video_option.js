@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            April 22 Nikol & Serzh negotiations fail<span>.</span>
+
                         </h1>
                     </div>
                 </header>
@@ -18,7 +18,7 @@ class App extends Component {
                             <Link to="../end/live_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go protest with Nikol
+                                        Serzh won’t  quit voluntarily. Let’s persuade him otherwise!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +27,7 @@ class App extends Component {
                             <Link to="../end/live_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go home, it’s useless
+                                        Our efforts seem futile & ineffective. Better retreat for now!
                                     </span>
                                 </div>
                             </Link>

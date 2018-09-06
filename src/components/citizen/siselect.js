@@ -8,10 +8,10 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            In case of A, B, B<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
                         <p>
-                            Some text if needed.
+                            Nikol Pashinyan urges everyone to join him in the French Square for a very important announcement!
                         </p>
                     </div>
                 </header>
@@ -21,7 +21,7 @@ class App extends Component {
                             <Link to="siselect/velvet_revolution">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Go to French Square
+                                        It’s time to spice things up. I’m going!
                                     </span>
                                 </div>
                             </Link>
@@ -30,7 +30,7 @@ class App extends Component {
                             <Link to="./cac/scared">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        You’re scared, go home
+                                        It’s a bit dangerous. Retreat for now!
                                     </span>
                                 </div>
                             </Link>

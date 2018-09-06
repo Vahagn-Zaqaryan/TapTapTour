@@ -8,8 +8,11 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            Police Options<span>.</span>
+                            WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            A protester spotted special police forces moving in your direction. Nikol Pashinyan urges everyone to show non-violent resistance to the police.
+                        </p>
                     </div>
                 </header>
                 <main>
@@ -18,7 +21,7 @@ class App extends Component {
                             <Link to="./p_option/p_option_right">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Get to the first line of protesters & march towards them
+                                        Bring it on! It’s time to face the police!
                                     </span>
                                 </div>
                             </Link>
@@ -27,7 +30,7 @@ class App extends Component {
                             <Link to="./p_option/p_option_right">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Go behind the main lines of marches
+                                        It’s safer if I walk behind the main crowd!
                                     </span>
                                 </div>
                             </Link>
@@ -36,7 +39,7 @@ class App extends Component {
                             <Link to="./p_option/p_option_right">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Wait at Yeritasardakan intersection
+                                        I would rather wait and see how this goes!
                                     </span>
                                 </div>
                             </Link>
