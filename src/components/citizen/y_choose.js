@@ -18,7 +18,7 @@ class App extends Component {
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="./y_choose/ap">
+                            <Link to="y_choose/ap">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
                                         I will march with the students!
@@ -27,7 +27,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="./y_choose/ap">
+                            <Link to="y_choose/ap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         I will take the metro to Yeritasardakan station!
@@ -36,7 +36,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="./y_choose/pp">
+                            <Link to="y_choose/pp">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         Is it that significant? I will just follow the news!
