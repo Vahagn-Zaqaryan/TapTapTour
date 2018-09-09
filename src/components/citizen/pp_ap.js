@@ -22,7 +22,7 @@ class App extends Component {
                             <Link to="./before_s_quest">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Continue
+                                        I Watched It!
                                     </span>
                                 </div>
                             </Link>

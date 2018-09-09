@@ -21,7 +21,7 @@ class App extends Component {
                             <Link to="/citizen/dialer_serzh">
                                 <div className="buttonLink f-f--ourF">
                                     <span className="f-f--ourF">
-                                        Continue
+                                        I Watched It!
                                     </span>
                                 </div>
                             </Link>

@@ -24,7 +24,7 @@ class App extends Component {
                             <Link to="/citizen/dialer">
                                 <div className="buttonLink f-f--ourF" onClick={this.handleCall.bind(this)}>
                                     <span className="f-f--ourF">
-                                        Continue
+                                        I Watched It!
                                     </span>
                                 </div>
                             </Link>
