@@ -76,12 +76,14 @@ class App extends Component {
                 </audio>
                 <aside></aside>
                 <nav className="w--full">
-                    <div className="nav-box d--flex ">
+                    <div className="nav-box d--flex">
                         <div className="logo-box">
                             <img src={Logo} alt="Logo" title="Logo"/>
                         </div>
-                        <div className="">
-
+                        <div className="vRel d--flex align-center">
+                            <div className="vBox">
+                                v1.2.1 α Release
+                            </div>
                         </div>
                     </div>
                 </nav>
