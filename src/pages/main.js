@@ -87,7 +87,7 @@ class App extends Component {
                         </div>
                         <div className="vRel d--flex align-center">
                             <div className="vBox">
-                                v1.2.4 α Release
+                                v1.2.4.12 α Release
                             </div>
                         </div>
                     </div>
