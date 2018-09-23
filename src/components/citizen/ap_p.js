@@ -27,7 +27,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="c_hide">
+                            <Link to="ppap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         I’m not scared. I’m standing close to the stage!

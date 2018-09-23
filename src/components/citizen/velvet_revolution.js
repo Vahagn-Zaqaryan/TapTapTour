@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
+                        <p>
+                            Walk to French Square! When you get there, you find out that Nikol Pashinyan announces the start of a peaceful Velvet Revolution and challenges that you to take action!
+                        </p>
                         <h1 className="">
                             LISTEN TO WHAT HE PROPOSES<span>!</span>
                         </h1>
-                        <p>
-                            Nikol Pashinyan announces that we are starting a peaceful Velvet Revolution and challenges the you to take action!
-                        </p>
                     </div>
                 </header>
                 <main>

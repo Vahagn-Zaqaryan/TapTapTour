@@ -7,20 +7,21 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            GOOD JOB<span>!</span>
-                        </h1>
                         <p>
-                         Thanks to your actions, those people were let out from jail in less than 1 day!                   </p>
+                            Thanks to your actions, those people were let out from jail in less than 1 day!
+                        </p>
+                        <h1 className="">
+                            AMAZING JOB<span>!</span>
+                        </h1>
                     </div>
                 </header>
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="../april17">
+                            <Link to="../april17/asap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Continue Button!
+                                        Let's Move on
                                     </span>
                                 </div>
                             </Link>

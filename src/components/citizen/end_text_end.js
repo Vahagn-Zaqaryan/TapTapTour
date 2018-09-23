@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            PEOPLE ARE AGITATED BY THIS. WHAT WILL YOU DO<span>?</span>
-                        </h1>
                         <p>
                             In case of A The Parliament has a Republican Majority. None of its Members vote for Nikol Pashinyan. He is not elected as the Prime Minister!
                         </p>
+                        <h1 className="">
+                            PEOPLE ARE AGITATED BY THIS. WHAT WILL YOU DO<span>?</span>
+                        </h1>
                     </div>
                 </header>
                 <main>

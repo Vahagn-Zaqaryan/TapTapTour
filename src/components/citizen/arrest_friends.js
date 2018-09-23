@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
+                        <p>
+                            You see how several protesters are arrested by masked policemen.
+                        </p>
                         <h1 className="">
                             WHAT WILL YOU DO<span>?</span>
                         </h1>
-                        <p>
-                            A few of your friends and protester peers are arrested by masked men
-                        </p>
                     </div>
                 </header>
                 <main>
@@ -30,13 +30,13 @@ class App extends Component {
                             <Link to="./arrest_friends/congrats">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        “They have done nothing illegal, let them go!”
+                                        They have done nothing illegal, let them go!
                                     </span>
                                 </div>
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="./arrest_friends/congrats">
+                            <Link to="./arrest_friends/congrats2">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         I will find an activist leading the protest and notify them!
@@ -45,7 +45,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="./arrest_friends/congrats">
+                            <Link to="./arrest_friends/congrats3">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         There is not much I can change. My job is to protest!

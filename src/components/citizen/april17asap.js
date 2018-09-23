@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WHAT WILL YOU DO<span>?</span>
-                        </h1>
                         <p>
                             The Parliament will hold a vote to elect Serzh Sargsyan. Nikol Pashinyan leads the protesters to block the Parliament, so the elections won’t happen.
                         </p>
+                        <h1 className="">
+                            WHAT WILL YOU DO<span>?</span>
+                        </h1>
                     </div>
                 </header>
                 <main>
@@ -27,7 +27,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="../siselectprevideo">
+                            <Link to="../siselectprevideo2">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         I will take the metro. It’s faster for me!
@@ -36,7 +36,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="../cac">
+                            <Link to="../siselectprevideo3">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         The crowd won’t miss one person. I’ll hold back!

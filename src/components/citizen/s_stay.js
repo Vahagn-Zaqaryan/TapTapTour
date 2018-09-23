@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WHAT WILL YOU DO<span>?</span>
-                        </h1>
                         <p>
                             Capturing the French Square was a piece of cake. Now the protesters need to occupy it at night.
                         </p>
+                        <h1 className="">
+                            WHAT WILL YOU DO<span>?</span>
+                        </h1>
                     </div>
                 </header>
                 <main>
@@ -27,7 +27,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="./ppap">
+                            <Link to="./serzh_video">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         April is cold in Yerevan. I’ll go home and join in the morning!

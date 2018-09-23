@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WHAT WILL YOU DO<span>?</span>
-                        </h1>
                         <p>
                             Nikol Pashinyan urges everyone to join him in the French Square for a very important announcement!
                         </p>
+                        <h1 className="">
+                            WHAT WILL YOU DO<span>?</span>
+                        </h1>
                     </div>
                 </header>
                 <main>

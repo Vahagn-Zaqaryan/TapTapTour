@@ -8,12 +8,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WALK TOWARDS YOUR REVOLUTIONARY JOURNEY<span>!</span>
-                        </h1>
                         <p>
                             This is the Prime Minister's residence. You and your fellow citizens demand that Nikol Pashinyan is elected.
                         </p>
+                        <h1 className="">
+                            WALK TOWARDS YOUR REVOLUTIONARY JOURNEY<span>!</span>
+                        </h1>
                     </div>
                 </header>
                 <main>

@@ -24,6 +24,8 @@ import POption from '../components/citizen/p_option';
 import POptionRight from '../components/citizen/p_option_right';
 import ArrestFriends from '../components/citizen/arrest_friends';
 import ArrestFriendsCongrats from '../components/citizen/arrest_friends_congrats';
+import ArrestFriendsCongrats2 from '../components/citizen/arrest_friends_congrats2';
+import ArrestFriendsCongrats3 from '../components/citizen/arrest_friends_congrats3';
 import April17 from '../components/citizen/april17';
 import April17ASAP from '../components/citizen/april17asap';
 import FriArrPP from '../components/citizen/fri_arr_pp';
@@ -33,6 +35,8 @@ import FriArrPPJoin from '../components/citizen/fri_arr_pp_join';
 import TextPP from '../components/citizen/text_pp';
 import Siselect from '../components/citizen/siselect';
 import Siselectprevideo from '../components/citizen/siselectprevideo';
+import Siselectprevideo2 from '../components/citizen/siselectprevideo2';
+import Siselectprevideo3 from '../components/citizen/siselectprevideo3';
 import VelevetRevolution from '../components/citizen/velvet_revolution';
 import VelevetRevolutionOption from '../components/citizen/velvet_revolution_option';
 import VelevetRevolutionOptionImgStreets from '../components/citizen/velvet_revolution_option_imgstreets';
@@ -55,6 +59,7 @@ import EndTextOptionImg2 from '../components/citizen/text_option_img2';
 import EndTextChoose from '../components/citizen/end_text_choose';
 import EndTextText from '../components/citizen/end_text_text';
 import BSQuest from '../components/citizen/before_s_quest';
+import ToFS from '../components/citizen/to_fs';
 
 class App extends Component {
     handleAudioCall () {
@@ -82,7 +87,7 @@ class App extends Component {
                         </div>
                         <div className="vRel d--flex align-center">
                             <div className="vBox">
-                                v1.2.1 α Release
+                                v1.2.4 α Release
                             </div>
                         </div>
                     </div>
@@ -108,15 +113,20 @@ class App extends Component {
                 <Route exact path="/citizen/d_choose/before_s_quest" render={()=><BSQuest/>}/>
                 <Route exact path="/citizen/d_choose/c_hide" render={()=><CHide/>}/>
                 <Route exact path="/citizen/d_choose/s_quest" render={()=><SQuest/>}/>
+                <Route exact path="/citizen/d_choose/to_fs" render={()=><ToFS/>}/>
                 <Route exact path="/citizen/d_choose/s_stay" render={()=><SStay/>}/>
                 <Route exact path="/citizen/d_choose/serzh_video" render={()=><SerzhVideo/>}/>
                 <Route exact path="/citizen/dialer_serzh" render={()=><DialerSerzh audioPause={this.handleAudioCallOff.bind(this)}/>}/>
                 <Route exact path="/citizen/arrest_friends" render={()=><ArrestFriends/>}/>
                 <Route exact path="/citizen/arrest_friends/congrats" render={()=><ArrestFriendsCongrats/>}/>
+                <Route exact path="/citizen/arrest_friends/congrats2" render={()=><ArrestFriendsCongrats2/>}/>
+                <Route exact path="/citizen/arrest_friends/congrats3" render={()=><ArrestFriendsCongrats3/>}/>
                 <Route exact path="/citizen/april17" render={()=><April17/>}/>
                 <Route exact path="/citizen/april17/asap" render={()=><April17ASAP/>}/>
                 <Route exact path="/citizen/siselect" render={()=><Siselect/>}/>
                 <Route exact path="/citizen/siselectprevideo" render={()=><Siselectprevideo/>}/>
+                <Route exact path="/citizen/siselectprevideo2" render={()=><Siselectprevideo2/>}/>
+                <Route exact path="/citizen/siselectprevideo3" render={()=><Siselectprevideo3/>}/>
                 <Route exact path="/citizen/siselect/velvet_revolution" render={()=><VelevetRevolution/>}/>
                 <Route exact path="/citizen/siselect/velvet_revolution/option" render={()=><VelevetRevolutionOption/>}/>
                 <Route exact path="/citizen/siselect/velvet_revolution/option/imgstreets" render={()=><VelevetRevolutionOptionImgStreets/>}/>

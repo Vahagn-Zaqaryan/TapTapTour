@@ -7,27 +7,21 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
+                        <p>
+                            Thanks to your actions, those people were let out from jail in less than 3 day!
+                        </p>
                         <h1 className="">
-                            THE NEGOTIATIONS HAVE FAILED! WHAT WILL YOU DO<span>?</span>
+                            GOOD JOB<span>!</span>
                         </h1>
                     </div>
                 </header>
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="../../../end/live_video">
-                                <div className="buttonLink f-f--ourF">
-                                    <span className="f-f--ourF">
-                                        Serzh won’t  quit voluntarily. Let’s persuade him otherwise!
-                                    </span>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="sub-section">
-                            <Link to="../../../end/live_video">
+                            <Link to="../april17/asap">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
-                                        Our efforts seem futile & ineffective. Better retreat for now!
+                                        Let's Move on
                                     </span>
                                 </div>
                             </Link>

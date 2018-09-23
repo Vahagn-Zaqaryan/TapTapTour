@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WATCH HOW THE REVOLUTION CATCHES ON FIRE<span>!</span>
-                        </h1>
                         <p>
                             The newly elected Prime Minister Serzh Sargsyan has agreed to negotiate with Nikol Pashinyan. Various news media are covering the event.
                         </p>
+                        <h1 className="">
+                            WATCH HOW THE REVOLUTION CATCHES ON FIRE<span>!</span>
+                        </h1>
                     </div>
                 </header>
                 <main>

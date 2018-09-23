@@ -8,7 +8,7 @@ class App extends Component {
                 <header>
                     <div className="header-box">
                         <h1 className="">
-                            WATCH HOW THE PROTESTERS FACE THE POLICE IN FRONT OF THE PARLIAMENT BUILDING<span>!</span>
+                            WALK DOWN TO THE PARLIAMENT BUILDING ON BAGHRAMYAN STREET. ONCE YOU ARE IN FRONT OF THE PARLIAMENT, WATCH HOW THE PROTESTERS FACE THE POLICE IN FRONT OF THE PARLIAMENT<span>!</span>
                         </h1>
                     </div>
                 </header>

@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WATCH WHAT HAPPENS NEXT<span>!</span>
-                        </h1>
                         <p>
                             After the failed negotiations, Nikol Pashinyan, a handful of other Members of Parliament and a group of protesters march across Yerevan. Things take a dramatic turn when they are unexpectedly blocked by shielded police forces.
                         </p>
+                        <h1 className="">
+                            WATCH WHAT HAPPENS NEXT<span>!</span>
+                        </h1>
                     </div>
                 </header>
                 <main>

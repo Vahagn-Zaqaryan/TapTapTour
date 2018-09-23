@@ -8,18 +8,18 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                        AVOID STANDING IN THE CAMERA RADIUS<span>!  </span>
-                        </h1>
                         <p>
                             The news media position their cameras on the top left and right parts of the stage.
                         </p>
+                        <h1 className="">
+                            AVOID STANDING IN THE CAMERA RADIUS<span>!</span>
+                        </h1>
                     </div>
                 </header>
                 <main>
                     <section>
                     <div className="sub-section">
-                        <Link to="s_quest">
+                        <Link to="ppap">
                             <div className="buttonLink">
                                 <span className="f-f--ourF">
                                     Mission Accomplished!

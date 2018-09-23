@@ -7,12 +7,12 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WATCH HOW WILL THE VOTING UNFOLD<span>!</span>
-                        </h1>
                         <p>
                             After parents text: You and hundreds of thousands of citizens demand a re-election. The Parliament holds a second election. The Republicans promised to yield enough votes to elect Nikol!
                         </p>
+                        <h1 className="">
+                            WATCH HOW WILL THE VOTING UNFOLD<span>!</span>
+                        </h1>
                     </div>
                 </header>
                 <main>

@@ -7,18 +7,18 @@ class App extends Component {
             <div className="box">
                 <header>
                     <div className="header-box">
-                        <h1 className="">
-                            WHAT WILL YOU DO<span>?</span>
-                        </h1>
                         <p>
                             Nikol Pashinyan is leading the protesters to block the French Square.
                         </p>
+                        <h1 className="">
+                            WHAT WILL YOU DO<span>?</span>
+                        </h1>
                     </div>
                 </header>
                 <main>
                     <section>
                         <div className="sub-section">
-                            <Link to="s_stay">
+                            <Link to="./to_fs">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         I will follow right after him!
@@ -27,7 +27,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="s_stay">
+                            <Link to="./to_fs">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         It’s safer if I walk behind the main crowd!
@@ -36,7 +36,7 @@ class App extends Component {
                             </Link>
                         </div>
                         <div className="sub-section">
-                            <Link to="./ppap">
+                            <Link to="./to_fs">
                                 <div className="buttonLink">
                                     <span className="f-f--ourF">
                                         I will play safe and follow news from home!

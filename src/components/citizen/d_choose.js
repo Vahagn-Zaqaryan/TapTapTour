@@ -10,6 +10,9 @@ class App extends Component {
                         <h1 className="">
                             WHAT WILL YOU DO<span>?</span>
                         </h1>
+                        <p>
+                            Your dad seems worried about you joining the protests.
+                        </p>
                     </div>
                 </header>
                 <main>
